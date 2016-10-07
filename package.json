@@ -1,0 +1,23 @@
+{
+  "name": "compress-str",
+  "version": "1.0.0",
+  "description": "base on \"zlib\" to compress string - binary",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyoloro/compress-str.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "Kyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kyoloro/compress-str/issues"
+  },
+  "homepage": "https://github.com/Kyoloro/compress-str#readme"
+}
