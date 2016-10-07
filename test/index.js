@@ -33,3 +33,14 @@ compressStr.gzip(str).then(function (data) {
 }).catch(function (err) {
     console.error('something error', err)
 })
+
+var str2 = { name: 'kyo' }
+compressStr.gzip(str2).then(function (data) {
+    console.log(data.length)
+    return compressStr.gunzip(data)
+}).then(function (data2) {
+    console.log(data2.length)
+    assert.deepStrictEqual(str2, JSON.parse(data2))
+}).catch(function (err) {
+    console.error('something error', err)
+})
