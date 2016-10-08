@@ -63,3 +63,6 @@ gzip string (return a Promise when missing callback)
 
 #### .gunzip(string[, callback])
 gunzip string from gzip (return a Promise when missing callback)
+
+## License
+MIT
