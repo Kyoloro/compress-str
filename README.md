@@ -8,7 +8,7 @@ $ npm install compress-str
 
 ## Example
 ```javascript
-'use stric'
+'use strict'
 
 var compress = require('compress-str')
 var str = 'this_is_a_very_very_very_very_very_very_very_very_very_very_very_very_long_string'

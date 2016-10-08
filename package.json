@@ -1,6 +1,6 @@
 {
   "name": "compress-str",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "base on \"zlib\" to compress string - binary",
   "main": "index.js",
   "scripts": {
