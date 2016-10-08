@@ -1,6 +1,7 @@
 # Compress-Str
-> Base on "zlib" module to compress string - binary for database saving (redis or mongodb ...).Suport both callback and native Promise
-## Install
+> Base on "zlib" module to compress string - binary for database saving (redis or mongodb ...). Support both callback and native Promise
+
+## Installation
 ```sh
 $ npm install compress-str
 ```
@@ -45,7 +46,7 @@ compress.gzip(str).then(function (m) {
 ```
 
 ## FAQ
-this module use native Promise for node.js v0.12 +, when your node.js version can't suport Promise, you may use bluebird or do something yourself with callback
+this module use native Promise for node.js v0.12 +, when your node.js version can't support Promise, you may use bluebird or do something yourself with callback
 ```javascript
 'use strict'
 
@@ -55,3 +56,10 @@ var Promise = require('bluebird')
 compress.Promise = Promise
 // to do can do well
 ```
+
+## API
+#### .gzip(string || object[, callback])
+gzip string (return a Promise when missing callback)
+
+#### .gunzip(string[, callback])
+gunzip string from gzip (return a Promise when missing callback)
