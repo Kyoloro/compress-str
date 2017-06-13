@@ -1,6 +1,11 @@
 # Compress-Str
 > Base on "zlib" module to compress string - binary for database saving (redis or mongodb ...). Support both callback and native Promise
 
+[![Build status](https://img.shields.io/travis/Kyoloro/compress-str/master.svg?style=flat-square)](https://travis-ci.org/Kyoloro/compress-str)
+
+## Notice
+gzip function is a high CPU consumption, not support to use at high I/O case.
+
 ## Installation
 ```sh
 $ npm install compress-str
