@@ -1,5 +1,5 @@
 # Compress-Str
-> Base on "zlib" module to compress string - binary for database saving (redis or mongodb ...). Support both callback and native Promise
+> Base on "zlib" module to compress string - base64 for database saving (redis or mongodb ...). Support both callback and native Promise
 
 [![Build status](https://img.shields.io/travis/Kyoloro/compress-str/master.svg?style=flat-square)](https://travis-ci.org/Kyoloro/compress-str)
 
