@@ -2,10 +2,7 @@
 > Base on "zlib" module to compress string - base64 for database saving (redis or mongodb ...). Support both callback and native Promise
 
 [![Build status](https://img.shields.io/travis/Kyoloro/compress-str/master.svg?style=flat-square)](https://travis-ci.org/Kyoloro/compress-str)
-
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.12-green.svg?style=flat-square
-
-[node-url]: http://nodejs.org/download/
+![node-image](https://img.shields.io/badge/node.js-%3E=_0.12-green.svg?style=flat-square)
 
 ## Notice
 gzip function is a high CPU consumption, not support to use at high I/O case.
